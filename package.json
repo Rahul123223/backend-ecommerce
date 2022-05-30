@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "init": "^0.1.2",
+    "mongoose": "^6.3.4",
+    "nodemon": "^2.0.16",
+    "razorpay": "^2.8.1",
+    "shortid": "^2.2.16"
+  },
+  "engines": {
+    "node": "16.13.2"
+  }
+}
