@@ -1,6 +1,6 @@
 const express=require('express');
 const router=express.Router();
-const cart=require('../model/cart.model');
+const cart=require('../models/cart.model');
 
 router.get('', async (req,res)=>{
     const Cart=await cart.find().lean().exec();
