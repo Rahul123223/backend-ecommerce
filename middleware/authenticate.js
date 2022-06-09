@@ -21,6 +21,7 @@ module.exports = async (req, res, next) => {
       message: "authorization token was not provided or was not valid -1",
     });
 
+    
   const token = req.headers.authorization.split(" ")[1];
 
   let user;
